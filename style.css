@@ -208,11 +208,7 @@ body{
     margin: 1.5rem 0;
 }
 
-.about .work{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-}
+
 
 .work .workbox{
     display: flex;
@@ -239,3 +235,10 @@ body{
 
 /******** responsive Design*******/
 
+@media (width:1000px) {
+    .about .work{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+}
